@@ -57,7 +57,6 @@ export default {
     },
     methods: {
         updateChanges() {
-            console.log(this.pacient)
             axios
                 .put(`/patients/${this.pacient.id}`, this.pacient)
                 .then(response => {
@@ -76,8 +75,6 @@ export default {
             this.pacient = {}
         },
         openModal() {
-            debugger
-            console.log(this.pacient)
             this.isOpenModalEdit = true
         }
     }

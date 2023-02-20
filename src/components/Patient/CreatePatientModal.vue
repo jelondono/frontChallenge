@@ -64,7 +64,6 @@ export default {
                         solid: true
                     })
                 })
-                .catch(error => console.log(error))
             this.closeModalCreatedPatient()
         },
         openModalCreatedPatient() {

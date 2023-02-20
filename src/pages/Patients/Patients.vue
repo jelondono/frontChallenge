@@ -101,7 +101,6 @@ export default {
     },
 
     data() {
-        console.log(this.pacient)
         return {
             currentPage: 1,
             perPage: 10,
