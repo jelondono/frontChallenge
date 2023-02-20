@@ -16,7 +16,7 @@
                         required></b-form-input>
                 </b-form-group>
                 <b-form-group label="Genero:" label-for="gender">
-                    <b-form-select id="gender" class="form-control" v-model="newPatient.gender.id"
+                    <b-form-select id="gender" required class="form-control" v-model="newPatient.gender.id"
                         :options="genders"></b-form-select>
                 </b-form-group>
                 <b-button type="submit" variant="primary">Crear paciente</b-button>
