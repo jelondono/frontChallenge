@@ -1,7 +1,7 @@
 <template>
     <div>
         <b-button size="sm" variant="info" class="mr-2" @click="openModalPrescripted" title="Ver prescripciones">
-            <i class="fa fa-eye"></i>
+            <i class="nc-icon nc-audio-92"></i>
         </b-button>
         <b-modal ref="modal" hide-footer title="Ver prescripciones" v-model="isOpenModalViewPrescripted">
             <b-alert show variant="primary" class>

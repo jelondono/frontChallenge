@@ -5,12 +5,12 @@
                 <div class="col-12">
                     <div class="card">
                         <b-card-header>
-                            Lista de pacientes
+                            Historia Clinica
                             <div class="container">
                                 <create-patient-modal></create-patient-modal>
                             </div>
                         </b-card-header>
-                        <b-card-body>
+                        <!-- <b-card-body>
 
                             <div class="filter-section">
                                 <b-form-checkbox v-model="showFilters" switch size="lg">Filtros</b-form-checkbox>
@@ -72,7 +72,7 @@
                                     </template>
                                 </b-pagination>
                             </div>
-                        </b-card-body>
+                        </b-card-body> -->
                     </div>
                 </div>
             </div>

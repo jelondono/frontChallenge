@@ -2,7 +2,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App.vue";
-
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 // LightBootstrap plugin
 import LightBootstrap from "./light-bootstrap-main";
 
@@ -15,6 +17,8 @@ import axios from 'axios'
 // plugin setup
 Vue.use(VueRouter);
 Vue.use(LightBootstrap);
+library.add(fas);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 
 // configure router
@@ -31,7 +35,7 @@ const router = new VueRouter({
 });
 
 
-axios.defaults.baseURL = 'http://localhost:9000'
+axios.defaults.baseURL = 'http://localhost:8500'
 
 /* eslint-disable no-new */
 new Vue({

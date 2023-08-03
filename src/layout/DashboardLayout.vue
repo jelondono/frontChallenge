@@ -6,10 +6,11 @@
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Dashboard</p>
       </sidebar-link>
-      <sidebar-link to="/admin/patient-list">
+      <sidebar-link to="/admin/clinic-history">
         <i class="nc-icon nc-notes"></i>
-        <p>Pacientes</p>
+        <p>Historia Clinica</p>
       </sidebar-link>    
+      
     
     </side-bar>
     <div class="main-panel">

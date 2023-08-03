@@ -23,8 +23,8 @@ const routes = [
       },
       
       {
-        path: 'patient-list',
-        name: 'Listado de pacientes',
+        path: 'clinic-history',
+        name: 'Historia Clínica',
         component: Patients
       }
     ]
