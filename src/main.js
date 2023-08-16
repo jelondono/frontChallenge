@@ -35,7 +35,7 @@ const router = new VueRouter({
 });
 
 
-axios.defaults.baseURL = 'http://localhost:8500'
+axios.defaults.baseURL = 'http://localhost:8084'
 
 /* eslint-disable no-new */
 new Vue({
